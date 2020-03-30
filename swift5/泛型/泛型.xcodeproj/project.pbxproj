@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBA88BF2430799E003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88BE2430799E003828AC /* main.swift */; };
+		EFBA88CC24307DFB003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88CB24307DFB003828AC /* main.swift */; };
+		EFBA88D7243083F9003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88D6243083F9003828AC /* main.swift */; };
+		EFBA88E224308619003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88E124308619003828AC /* main.swift */; };
+		EFBA88ED243089D7003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88EC243089D7003828AC /* main.swift */; };
+		EFBA88F82430A762003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA88F72430A762003828AC /* main.swift */; };
+		EFBA89032430AFB3003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA89022430AFB3003828AC /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFBA88B92430799E003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88C724307DFB003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88D2243083F9003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88DD24308619003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88E8243089D7003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88F32430A762003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA88FE2430AFB3003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFBA88BB2430799E003828AC /* 泛型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "泛型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88BE2430799E003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA88C924307DFB003828AC /* 泛型类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "泛型类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88CB24307DFB003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA88D4243083F9003828AC /* 泛型原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "泛型原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88D6243083F9003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA88DF24308619003828AC /* Associated Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Associated Type"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88E124308619003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA88EA243089D7003828AC /* 类型约束 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类型约束"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88EC243089D7003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA88F52430A762003828AC /* 协议类型注意点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "协议类型注意点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA88F72430A762003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA89002430AFB3003828AC /* 可选项本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "可选项本质"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA89022430AFB3003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBA88B82430799E003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88C624307DFB003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88D1243083F9003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88DC24308619003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88E7243089D7003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88F22430A762003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88FD2430AFB3003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBA88B22430799E003828AC = {
+			isa = PBXGroup;
+			children = (
+				EFBA88BD2430799E003828AC /* 泛型 */,
+				EFBA88CA24307DFB003828AC /* 泛型类型 */,
+				EFBA88D5243083F9003828AC /* 泛型原理 */,
+				EFBA88E024308619003828AC /* Associated Type */,
+				EFBA88EB243089D7003828AC /* 类型约束 */,
+				EFBA88F62430A762003828AC /* 协议类型注意点 */,
+				EFBA89012430AFB3003828AC /* 可选项本质 */,
+				EFBA88BC2430799E003828AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBA88BC2430799E003828AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88BB2430799E003828AC /* 泛型 */,
+				EFBA88C924307DFB003828AC /* 泛型类型 */,
+				EFBA88D4243083F9003828AC /* 泛型原理 */,
+				EFBA88DF24308619003828AC /* Associated Type */,
+				EFBA88EA243089D7003828AC /* 类型约束 */,
+				EFBA88F52430A762003828AC /* 协议类型注意点 */,
+				EFBA89002430AFB3003828AC /* 可选项本质 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBA88BD2430799E003828AC /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88BE2430799E003828AC /* main.swift */,
+			);
+			path = "泛型";
+			sourceTree = "<group>";
+		};
+		EFBA88CA24307DFB003828AC /* 泛型类型 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88CB24307DFB003828AC /* main.swift */,
+			);
+			path = "泛型类型";
+			sourceTree = "<group>";
+		};
+		EFBA88D5243083F9003828AC /* 泛型原理 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88D6243083F9003828AC /* main.swift */,
+			);
+			path = "泛型原理";
+			sourceTree = "<group>";
+		};
+		EFBA88E024308619003828AC /* Associated Type */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88E124308619003828AC /* main.swift */,
+			);
+			path = "Associated Type";
+			sourceTree = "<group>";
+		};
+		EFBA88EB243089D7003828AC /* 类型约束 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88EC243089D7003828AC /* main.swift */,
+			);
+			path = "类型约束";
+			sourceTree = "<group>";
+		};
+		EFBA88F62430A762003828AC /* 协议类型注意点 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA88F72430A762003828AC /* main.swift */,
+			);
+			path = "协议类型注意点";
+			sourceTree = "<group>";
+		};
+		EFBA89012430AFB3003828AC /* 可选项本质 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA89022430AFB3003828AC /* main.swift */,
+			);
+			path = "可选项本质";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBA88BA2430799E003828AC /* 泛型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88C22430799E003828AC /* Build configuration list for PBXNativeTarget "泛型" */;
+			buildPhases = (
+				EFBA88B72430799E003828AC /* Sources */,
+				EFBA88B82430799E003828AC /* Frameworks */,
+				EFBA88B92430799E003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "泛型";
+			productName = "泛型";
+			productReference = EFBA88BB2430799E003828AC /* 泛型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88C824307DFB003828AC /* 泛型类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88CD24307DFB003828AC /* Build configuration list for PBXNativeTarget "泛型类型" */;
+			buildPhases = (
+				EFBA88C524307DFB003828AC /* Sources */,
+				EFBA88C624307DFB003828AC /* Frameworks */,
+				EFBA88C724307DFB003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "泛型类型";
+			productName = "泛型类型";
+			productReference = EFBA88C924307DFB003828AC /* 泛型类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88D3243083F9003828AC /* 泛型原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88D8243083F9003828AC /* Build configuration list for PBXNativeTarget "泛型原理" */;
+			buildPhases = (
+				EFBA88D0243083F9003828AC /* Sources */,
+				EFBA88D1243083F9003828AC /* Frameworks */,
+				EFBA88D2243083F9003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "泛型原理";
+			productName = "泛型原理";
+			productReference = EFBA88D4243083F9003828AC /* 泛型原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88DE24308619003828AC /* Associated Type */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88E324308619003828AC /* Build configuration list for PBXNativeTarget "Associated Type" */;
+			buildPhases = (
+				EFBA88DB24308619003828AC /* Sources */,
+				EFBA88DC24308619003828AC /* Frameworks */,
+				EFBA88DD24308619003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Associated Type";
+			productName = "Associated Type";
+			productReference = EFBA88DF24308619003828AC /* Associated Type */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88E9243089D7003828AC /* 类型约束 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88EE243089D7003828AC /* Build configuration list for PBXNativeTarget "类型约束" */;
+			buildPhases = (
+				EFBA88E6243089D7003828AC /* Sources */,
+				EFBA88E7243089D7003828AC /* Frameworks */,
+				EFBA88E8243089D7003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类型约束";
+			productName = "类型约束";
+			productReference = EFBA88EA243089D7003828AC /* 类型约束 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88F42430A762003828AC /* 协议类型注意点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA88F92430A762003828AC /* Build configuration list for PBXNativeTarget "协议类型注意点" */;
+			buildPhases = (
+				EFBA88F12430A762003828AC /* Sources */,
+				EFBA88F22430A762003828AC /* Frameworks */,
+				EFBA88F32430A762003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "协议类型注意点";
+			productName = "协议类型注意点";
+			productReference = EFBA88F52430A762003828AC /* 协议类型注意点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA88FF2430AFB3003828AC /* 可选项本质 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA89042430AFB3003828AC /* Build configuration list for PBXNativeTarget "可选项本质" */;
+			buildPhases = (
+				EFBA88FC2430AFB3003828AC /* Sources */,
+				EFBA88FD2430AFB3003828AC /* Frameworks */,
+				EFBA88FE2430AFB3003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "可选项本质";
+			productName = "可选项本质";
+			productReference = EFBA89002430AFB3003828AC /* 可选项本质 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBA88B32430799E003828AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "侯森魁";
+				TargetAttributes = {
+					EFBA88BA2430799E003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88C824307DFB003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88D3243083F9003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88DE24308619003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88E9243089D7003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88F42430A762003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA88FF2430AFB3003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EFBA88B62430799E003828AC /* Build configuration list for PBXProject "泛型" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBA88B22430799E003828AC;
+			productRefGroup = EFBA88BC2430799E003828AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBA88BA2430799E003828AC /* 泛型 */,
+				EFBA88C824307DFB003828AC /* 泛型类型 */,
+				EFBA88D3243083F9003828AC /* 泛型原理 */,
+				EFBA88DE24308619003828AC /* Associated Type */,
+				EFBA88E9243089D7003828AC /* 类型约束 */,
+				EFBA88F42430A762003828AC /* 协议类型注意点 */,
+				EFBA88FF2430AFB3003828AC /* 可选项本质 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBA88B72430799E003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88BF2430799E003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88C524307DFB003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88CC24307DFB003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88D0243083F9003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88D7243083F9003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88DB24308619003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88E224308619003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88E6243089D7003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88ED243089D7003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88F12430A762003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA88F82430A762003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA88FC2430AFB3003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA89032430AFB3003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFBA88C02430799E003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBA88C12430799E003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFBA88C32430799E003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88C42430799E003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA88CE24307DFB003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88CF24307DFB003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA88D9243083F9003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88DA243083F9003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA88E424308619003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88E524308619003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA88EF243089D7003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88F0243089D7003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA88FA2430A762003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA88FB2430A762003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA89052430AFB3003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA89062430AFB3003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBA88B62430799E003828AC /* Build configuration list for PBXProject "泛型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88C02430799E003828AC /* Debug */,
+				EFBA88C12430799E003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88C22430799E003828AC /* Build configuration list for PBXNativeTarget "泛型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88C32430799E003828AC /* Debug */,
+				EFBA88C42430799E003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88CD24307DFB003828AC /* Build configuration list for PBXNativeTarget "泛型类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88CE24307DFB003828AC /* Debug */,
+				EFBA88CF24307DFB003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88D8243083F9003828AC /* Build configuration list for PBXNativeTarget "泛型原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88D9243083F9003828AC /* Debug */,
+				EFBA88DA243083F9003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88E324308619003828AC /* Build configuration list for PBXNativeTarget "Associated Type" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88E424308619003828AC /* Debug */,
+				EFBA88E524308619003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88EE243089D7003828AC /* Build configuration list for PBXNativeTarget "类型约束" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88EF243089D7003828AC /* Debug */,
+				EFBA88F0243089D7003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA88F92430A762003828AC /* Build configuration list for PBXNativeTarget "协议类型注意点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA88FA2430A762003828AC /* Debug */,
+				EFBA88FB2430A762003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA89042430AFB3003828AC /* Build configuration list for PBXNativeTarget "可选项本质" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA89052430AFB3003828AC /* Debug */,
+				EFBA89062430AFB3003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBA88B32430799E003828AC /* Project object */;
+}

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBA8707242F3379003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA8706242F3379003828AC /* main.swift */; };
+		EFBA872D242F5A9F003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA872C242F5A9F003828AC /* main.swift */; };
+		EFBA8738242F5C2D003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA8737242F5C2D003828AC /* main.swift */; };
+		EFBA8743242F63AA003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA8742242F63AA003828AC /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBA8724242F57DC003828AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBA8720242F57DC003828AC /* request.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EFBA8716242F57DC003828AC;
+			remoteInfo = request;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFBA8701242F3379003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA8728242F5A9F003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA8733242F5C2D003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFBA873E242F63AA003828AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFBA8703242F3379003828AC /* 初始化器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "初始化器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA8706242F3379003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA8720242F57DC003828AC /* request.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = request.xcodeproj; path = ../../request/request.xcodeproj; sourceTree = "<group>"; };
+		EFBA872A242F5A9F003828AC /* 属性观察器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "属性观察器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA872C242F5A9F003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA8735242F5C2D003828AC /* 可失败初始化器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "可失败初始化器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA8737242F5C2D003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFBA8740242F63AA003828AC /* 反初始化器deinit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "反初始化器deinit"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBA8742242F63AA003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBA8700242F3379003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA8727242F5A9F003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA8732242F5C2D003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA873D242F63AA003828AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBA86FA242F3379003828AC = {
+			isa = PBXGroup;
+			children = (
+				EFBA8705242F3379003828AC /* 初始化器 */,
+				EFBA872B242F5A9F003828AC /* 属性观察器 */,
+				EFBA8736242F5C2D003828AC /* 可失败初始化器 */,
+				EFBA8741242F63AA003828AC /* 反初始化器deinit */,
+				EFBA8704242F3379003828AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBA8704242F3379003828AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA8703242F3379003828AC /* 初始化器 */,
+				EFBA872A242F5A9F003828AC /* 属性观察器 */,
+				EFBA8735242F5C2D003828AC /* 可失败初始化器 */,
+				EFBA8740242F63AA003828AC /* 反初始化器deinit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBA8705242F3379003828AC /* 初始化器 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA8720242F57DC003828AC /* request.xcodeproj */,
+				EFBA8706242F3379003828AC /* main.swift */,
+			);
+			path = "初始化器";
+			sourceTree = "<group>";
+		};
+		EFBA8721242F57DC003828AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA8725242F57DC003828AC /* request */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBA872B242F5A9F003828AC /* 属性观察器 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA872C242F5A9F003828AC /* main.swift */,
+			);
+			path = "属性观察器";
+			sourceTree = "<group>";
+		};
+		EFBA8736242F5C2D003828AC /* 可失败初始化器 */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA8737242F5C2D003828AC /* main.swift */,
+			);
+			path = "可失败初始化器";
+			sourceTree = "<group>";
+		};
+		EFBA8741242F63AA003828AC /* 反初始化器deinit */ = {
+			isa = PBXGroup;
+			children = (
+				EFBA8742242F63AA003828AC /* main.swift */,
+			);
+			path = "反初始化器deinit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBA8702242F3379003828AC /* 初始化器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA870A242F3379003828AC /* Build configuration list for PBXNativeTarget "初始化器" */;
+			buildPhases = (
+				EFBA86FF242F3379003828AC /* Sources */,
+				EFBA8700242F3379003828AC /* Frameworks */,
+				EFBA8701242F3379003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "初始化器";
+			productName = "初始化器";
+			productReference = EFBA8703242F3379003828AC /* 初始化器 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA8729242F5A9F003828AC /* 属性观察器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA872E242F5A9F003828AC /* Build configuration list for PBXNativeTarget "属性观察器" */;
+			buildPhases = (
+				EFBA8726242F5A9F003828AC /* Sources */,
+				EFBA8727242F5A9F003828AC /* Frameworks */,
+				EFBA8728242F5A9F003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "属性观察器";
+			productName = "属性观察器";
+			productReference = EFBA872A242F5A9F003828AC /* 属性观察器 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA8734242F5C2D003828AC /* 可失败初始化器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA8739242F5C2D003828AC /* Build configuration list for PBXNativeTarget "可失败初始化器" */;
+			buildPhases = (
+				EFBA8731242F5C2D003828AC /* Sources */,
+				EFBA8732242F5C2D003828AC /* Frameworks */,
+				EFBA8733242F5C2D003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "可失败初始化器";
+			productName = "可失败初始化器";
+			productReference = EFBA8735242F5C2D003828AC /* 可失败初始化器 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFBA873F242F63AA003828AC /* 反初始化器deinit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBA8744242F63AA003828AC /* Build configuration list for PBXNativeTarget "反初始化器deinit" */;
+			buildPhases = (
+				EFBA873C242F63AA003828AC /* Sources */,
+				EFBA873D242F63AA003828AC /* Frameworks */,
+				EFBA873E242F63AA003828AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "反初始化器deinit";
+			productName = "反初始化器deinit";
+			productReference = EFBA8740242F63AA003828AC /* 反初始化器deinit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBA86FB242F3379003828AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "侯森魁";
+				TargetAttributes = {
+					EFBA8702242F3379003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA8729242F5A9F003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA8734242F5C2D003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFBA873F242F63AA003828AC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EFBA86FE242F3379003828AC /* Build configuration list for PBXProject "初始化器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBA86FA242F3379003828AC;
+			productRefGroup = EFBA8704242F3379003828AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EFBA8721242F57DC003828AC /* Products */;
+					ProjectRef = EFBA8720242F57DC003828AC /* request.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EFBA8702242F3379003828AC /* 初始化器 */,
+				EFBA8729242F5A9F003828AC /* 属性观察器 */,
+				EFBA8734242F5C2D003828AC /* 可失败初始化器 */,
+				EFBA873F242F63AA003828AC /* 反初始化器deinit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EFBA8725242F57DC003828AC /* request */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = request;
+			remoteRef = EFBA8724242F57DC003828AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBA86FF242F3379003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA8707242F3379003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA8726242F5A9F003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA872D242F5A9F003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA8731242F5C2D003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA8738242F5C2D003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBA873C242F63AA003828AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBA8743242F63AA003828AC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFBA8708242F3379003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBA8709242F3379003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFBA870B242F3379003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA870C242F3379003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA872F242F5A9F003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA8730242F5A9F003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA873A242F5C2D003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA873B242F5C2D003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFBA8745242F63AA003828AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFBA8746242F63AA003828AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBA86FE242F3379003828AC /* Build configuration list for PBXProject "初始化器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA8708242F3379003828AC /* Debug */,
+				EFBA8709242F3379003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA870A242F3379003828AC /* Build configuration list for PBXNativeTarget "初始化器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA870B242F3379003828AC /* Debug */,
+				EFBA870C242F3379003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA872E242F5A9F003828AC /* Build configuration list for PBXNativeTarget "属性观察器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA872F242F5A9F003828AC /* Debug */,
+				EFBA8730242F5A9F003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA8739242F5C2D003828AC /* Build configuration list for PBXNativeTarget "可失败初始化器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA873A242F5C2D003828AC /* Debug */,
+				EFBA873B242F5C2D003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBA8744242F63AA003828AC /* Build configuration list for PBXNativeTarget "反初始化器deinit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA8745242F63AA003828AC /* Debug */,
+				EFBA8746242F63AA003828AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBA86FB242F3379003828AC /* Project object */;
+}
