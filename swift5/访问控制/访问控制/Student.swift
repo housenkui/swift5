@@ -9,7 +9,6 @@
 import Cocoa
 
 class Student: Person {
-
 }
 class Student1: Person1 {
 

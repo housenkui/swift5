@@ -9,10 +9,70 @@
 /* Begin PBXBuildFile section */
 		EF8A6194243176F800AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A6193243176F800AF0156 /* main.swift */; };
 		EF8A619B24317E3800AF0156 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A619A24317E3800AF0156 /* Student.swift */; };
+		EF8A61A424318EC000AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61A324318EC000AF0156 /* main.swift */; };
+		EF8A61AF24318F9B00AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61AE24318F9B00AF0156 /* main.swift */; };
+		EF8A61BA24319B2A00AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61B924319B2A00AF0156 /* main.swift */; };
+		EF8A61C52431A06600AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61C42431A06600AF0156 /* main.swift */; };
+		EF8A61D02431A64900AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61CF2431A64900AF0156 /* main.swift */; };
+		EF8A61DB2431A71600AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A61DA2431A71600AF0156 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF8A618E243176F800AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A619F24318EC000AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A61AA24318F9B00AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A61B524319B2A00AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A61C02431A06600AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A61CB2431A64900AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A61D62431A71600AF0156 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,10 +87,64 @@
 		EF8A6190243176F800AF0156 /* 访问控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "访问控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A6193243176F800AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF8A619A24317E3800AF0156 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EF8A61A124318EC000AF0156 /* 元祖类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "元祖类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61A324318EC000AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A61AC24318F9B00AF0156 /* 泛型类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "泛型类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61AE24318F9B00AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A61B724319B2A00AF0156 /* getter&setter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "getter&setter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61B924319B2A00AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A61C22431A06600AF0156 /* 协议的访问级别控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "协议的访问级别控制"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61C42431A06600AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A61CD2431A64900AF0156 /* 将方法赋值给var/let */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "将方法赋值给var/let"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61CF2431A64900AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A61D82431A71600AF0156 /* 补充 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "补充"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A61DA2431A71600AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF8A618D243176F800AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A619E24318EC000AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61A924318F9B00AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61B424319B2A00AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61BF2431A06600AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61CA2431A64900AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61D52431A71600AF0156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +158,12 @@
 			isa = PBXGroup;
 			children = (
 				EF8A6192243176F800AF0156 /* 访问控制 */,
+				EF8A61A224318EC000AF0156 /* 元祖类型 */,
+				EF8A61AD24318F9B00AF0156 /* 泛型类型 */,
+				EF8A61B824319B2A00AF0156 /* getter&setter */,
+				EF8A61C32431A06600AF0156 /* 协议的访问级别控制 */,
+				EF8A61CE2431A64900AF0156 /* 将方法赋值给var/let */,
+				EF8A61D92431A71600AF0156 /* 补充 */,
 				EF8A6191243176F800AF0156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				EF8A6190243176F800AF0156 /* 访问控制 */,
+				EF8A61A124318EC000AF0156 /* 元祖类型 */,
+				EF8A61AC24318F9B00AF0156 /* 泛型类型 */,
+				EF8A61B724319B2A00AF0156 /* getter&setter */,
+				EF8A61C22431A06600AF0156 /* 协议的访问级别控制 */,
+				EF8A61CD2431A64900AF0156 /* 将方法赋值给var/let */,
+				EF8A61D82431A71600AF0156 /* 补充 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +189,54 @@
 				EF8A619A24317E3800AF0156 /* Student.swift */,
 			);
 			path = "访问控制";
+			sourceTree = "<group>";
+		};
+		EF8A61A224318EC000AF0156 /* 元祖类型 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61A324318EC000AF0156 /* main.swift */,
+			);
+			path = "元祖类型";
+			sourceTree = "<group>";
+		};
+		EF8A61AD24318F9B00AF0156 /* 泛型类型 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61AE24318F9B00AF0156 /* main.swift */,
+			);
+			path = "泛型类型";
+			sourceTree = "<group>";
+		};
+		EF8A61B824319B2A00AF0156 /* getter&setter */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61B924319B2A00AF0156 /* main.swift */,
+			);
+			path = "getter&setter";
+			sourceTree = "<group>";
+		};
+		EF8A61C32431A06600AF0156 /* 协议的访问级别控制 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61C42431A06600AF0156 /* main.swift */,
+			);
+			path = "协议的访问级别控制";
+			sourceTree = "<group>";
+		};
+		EF8A61CE2431A64900AF0156 /* 将方法赋值给var/let */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61CF2431A64900AF0156 /* main.swift */,
+			);
+			path = "将方法赋值给var/let";
+			sourceTree = "<group>";
+		};
+		EF8A61D92431A71600AF0156 /* 补充 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A61DA2431A71600AF0156 /* main.swift */,
+			);
+			path = "补充";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +259,108 @@
 			productReference = EF8A6190243176F800AF0156 /* 访问控制 */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF8A61A024318EC000AF0156 /* 元祖类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61A724318EC000AF0156 /* Build configuration list for PBXNativeTarget "元祖类型" */;
+			buildPhases = (
+				EF8A619D24318EC000AF0156 /* Sources */,
+				EF8A619E24318EC000AF0156 /* Frameworks */,
+				EF8A619F24318EC000AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "元祖类型";
+			productName = "元祖类型";
+			productReference = EF8A61A124318EC000AF0156 /* 元祖类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A61AB24318F9B00AF0156 /* 泛型类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61B024318F9B00AF0156 /* Build configuration list for PBXNativeTarget "泛型类型" */;
+			buildPhases = (
+				EF8A61A824318F9B00AF0156 /* Sources */,
+				EF8A61A924318F9B00AF0156 /* Frameworks */,
+				EF8A61AA24318F9B00AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "泛型类型";
+			productName = "泛型类型";
+			productReference = EF8A61AC24318F9B00AF0156 /* 泛型类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A61B624319B2A00AF0156 /* getter&setter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61BB24319B2A00AF0156 /* Build configuration list for PBXNativeTarget "getter&setter" */;
+			buildPhases = (
+				EF8A61B324319B2A00AF0156 /* Sources */,
+				EF8A61B424319B2A00AF0156 /* Frameworks */,
+				EF8A61B524319B2A00AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "getter&setter";
+			productName = "getter&setter";
+			productReference = EF8A61B724319B2A00AF0156 /* getter&setter */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A61C12431A06600AF0156 /* 协议的访问级别控制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61C62431A06600AF0156 /* Build configuration list for PBXNativeTarget "协议的访问级别控制" */;
+			buildPhases = (
+				EF8A61BE2431A06600AF0156 /* Sources */,
+				EF8A61BF2431A06600AF0156 /* Frameworks */,
+				EF8A61C02431A06600AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "协议的访问级别控制";
+			productName = "协议的访问级别控制";
+			productReference = EF8A61C22431A06600AF0156 /* 协议的访问级别控制 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A61CC2431A64900AF0156 /* 将方法赋值给var/let */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61D12431A64900AF0156 /* Build configuration list for PBXNativeTarget "将方法赋值给var/let" */;
+			buildPhases = (
+				EF8A61C92431A64900AF0156 /* Sources */,
+				EF8A61CA2431A64900AF0156 /* Frameworks */,
+				EF8A61CB2431A64900AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "将方法赋值给var/let";
+			productName = "将方法赋值给var/let";
+			productReference = EF8A61CD2431A64900AF0156 /* 将方法赋值给var/let */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A61D72431A71600AF0156 /* 补充 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A61DC2431A71600AF0156 /* Build configuration list for PBXNativeTarget "补充" */;
+			buildPhases = (
+				EF8A61D42431A71600AF0156 /* Sources */,
+				EF8A61D52431A71600AF0156 /* Frameworks */,
+				EF8A61D62431A71600AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "补充";
+			productName = "补充";
+			productReference = EF8A61D82431A71600AF0156 /* 补充 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +372,24 @@
 				ORGANIZATIONNAME = "侯森魁";
 				TargetAttributes = {
 					EF8A618F243176F800AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61A024318EC000AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61AB24318F9B00AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61B624319B2A00AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61C12431A06600AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61CC2431A64900AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A61D72431A71600AF0156 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -114,6 +408,12 @@
 			projectRoot = "";
 			targets = (
 				EF8A618F243176F800AF0156 /* 访问控制 */,
+				EF8A61A024318EC000AF0156 /* 元祖类型 */,
+				EF8A61AB24318F9B00AF0156 /* 泛型类型 */,
+				EF8A61B624319B2A00AF0156 /* getter&setter */,
+				EF8A61C12431A06600AF0156 /* 协议的访问级别控制 */,
+				EF8A61CC2431A64900AF0156 /* 将方法赋值给var/let */,
+				EF8A61D72431A71600AF0156 /* 补充 */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +425,54 @@
 			files = (
 				EF8A6194243176F800AF0156 /* main.swift in Sources */,
 				EF8A619B24317E3800AF0156 /* Student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A619D24318EC000AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61A424318EC000AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61A824318F9B00AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61AF24318F9B00AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61B324319B2A00AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61BA24319B2A00AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61BE2431A06600AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61C52431A06600AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61C92431A64900AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61D02431A64900AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A61D42431A71600AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A61DB2431A71600AF0156 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +610,114 @@
 			};
 			name = Release;
 		};
+		EF8A61A524318EC000AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61A624318EC000AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A61B124318F9B00AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61B224318F9B00AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A61BC24319B2A00AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61BD24319B2A00AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A61C72431A06600AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61C82431A06600AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A61D22431A64900AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61D32431A64900AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A61DD2431A71600AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A61DE2431A71600AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +735,60 @@
 			buildConfigurations = (
 				EF8A6198243176F800AF0156 /* Debug */,
 				EF8A6199243176F800AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61A724318EC000AF0156 /* Build configuration list for PBXNativeTarget "元祖类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61A524318EC000AF0156 /* Debug */,
+				EF8A61A624318EC000AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61B024318F9B00AF0156 /* Build configuration list for PBXNativeTarget "泛型类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61B124318F9B00AF0156 /* Debug */,
+				EF8A61B224318F9B00AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61BB24319B2A00AF0156 /* Build configuration list for PBXNativeTarget "getter&setter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61BC24319B2A00AF0156 /* Debug */,
+				EF8A61BD24319B2A00AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61C62431A06600AF0156 /* Build configuration list for PBXNativeTarget "协议的访问级别控制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61C72431A06600AF0156 /* Debug */,
+				EF8A61C82431A06600AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61D12431A64900AF0156 /* Build configuration list for PBXNativeTarget "将方法赋值给var/let" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61D22431A64900AF0156 /* Debug */,
+				EF8A61D32431A64900AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A61DC2431A71600AF0156 /* Build configuration list for PBXNativeTarget "补充" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A61DD2431A71600AF0156 /* Debug */,
+				EF8A61DE2431A71600AF0156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
