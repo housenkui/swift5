@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EFBA89142430B6DE003828AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBA89132430B6DE003828AC /* main.swift */; };
+		EFDE834924338471003720CA /* Mems.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE834824338471003720CA /* Mems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		EFBA89132430B6DE003828AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EFBA891B2430BA88003828AC /* 内存结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内存结构.png"; sourceTree = "<group>"; };
 		EFBA891C2430C35D003828AC /* 从编码到启动App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "从编码到启动App.png"; sourceTree = "<group>"; };
+		EFDE8347243380A0003720CA /* OC和Swift桥接转换表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OC和Swift桥接转换表.png"; sourceTree = "<group>"; };
+		EFDE834824338471003720CA /* Mems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +62,11 @@
 		EFBA89122430B6DE003828AC /* String */ = {
 			isa = PBXGroup;
 			children = (
+				EFDE8347243380A0003720CA /* OC和Swift桥接转换表.png */,
 				EFBA891B2430BA88003828AC /* 内存结构.png */,
 				EFBA891C2430C35D003828AC /* 从编码到启动App.png */,
 				EFBA89132430B6DE003828AC /* main.swift */,
+				EFDE834824338471003720CA /* Mems.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBA89142430B6DE003828AC /* main.swift in Sources */,
+				EFDE834924338471003720CA /* Mems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

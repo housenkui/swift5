@@ -10,6 +10,11 @@
 		EF8A6280243211FE00AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A627F243211FE00AF0156 /* main.swift */; };
 		EF8A628D24321ACB00AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A628C24321ACB00AF0156 /* main.swift */; };
 		EF8A62982432338500AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62972432338500AF0156 /* main.swift */; };
+		EF8A62A32432F08100AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62A22432F08100AF0156 /* main.swift */; };
+		EF8A62AE2432F69B00AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62AD2432F69B00AF0156 /* main.swift */; };
+		EF8A62B924330C6100AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62B824330C6100AF0156 /* main.swift */; };
+		EF8A62C4243338E300AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62C3243338E300AF0156 /* main.swift */; };
+		EF8A62CF24333AB500AF0156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A62CE24333AB500AF0156 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +45,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		EF8A629E2432F08100AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A62A92432F69B00AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A62B424330C6100AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A62BF243338E300AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF8A62CA24333AB500AF0156 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +99,16 @@
 		EF8A628C24321ACB00AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF8A62952432338500AF0156 /* 枚举case模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "枚举case模式"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A62972432338500AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A62A02432F08100AF0156 /* 可选模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "可选模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A62A22432F08100AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A62AB2432F69B00AF0156 /* 类型转换模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类型转换模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A62AD2432F69B00AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A62B624330C6100AF0156 /* 表达式模式01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "表达式模式01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A62B824330C6100AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A62C1243338E300AF0156 /* 表达式模式2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "表达式模式2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A62C3243338E300AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF8A62CC24333AB500AF0156 /* where */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = where; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8A62CE24333AB500AF0156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +133,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF8A629D2432F08100AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62A82432F69B00AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62B324330C6100AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62BE243338E300AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62C924333AB500AF0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +177,11 @@
 				EF8A627E243211FE00AF0156 /* 字面量 */,
 				EF8A628B24321ACB00AF0156 /* 模式 */,
 				EF8A62962432338500AF0156 /* 枚举case模式 */,
+				EF8A62A12432F08100AF0156 /* 可选模式 */,
+				EF8A62AC2432F69B00AF0156 /* 类型转换模式 */,
+				EF8A62B724330C6100AF0156 /* 表达式模式01 */,
+				EF8A62C2243338E300AF0156 /* 表达式模式2 */,
+				EF8A62CD24333AB500AF0156 /* where */,
 				EF8A627D243211FE00AF0156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +192,11 @@
 				EF8A627C243211FE00AF0156 /* 字面量 */,
 				EF8A628A24321ACB00AF0156 /* 模式 */,
 				EF8A62952432338500AF0156 /* 枚举case模式 */,
+				EF8A62A02432F08100AF0156 /* 可选模式 */,
+				EF8A62AB2432F69B00AF0156 /* 类型转换模式 */,
+				EF8A62B624330C6100AF0156 /* 表达式模式01 */,
+				EF8A62C1243338E300AF0156 /* 表达式模式2 */,
+				EF8A62CC24333AB500AF0156 /* where */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +223,46 @@
 				EF8A62972432338500AF0156 /* main.swift */,
 			);
 			path = "枚举case模式";
+			sourceTree = "<group>";
+		};
+		EF8A62A12432F08100AF0156 /* 可选模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A62A22432F08100AF0156 /* main.swift */,
+			);
+			path = "可选模式";
+			sourceTree = "<group>";
+		};
+		EF8A62AC2432F69B00AF0156 /* 类型转换模式 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A62AD2432F69B00AF0156 /* main.swift */,
+			);
+			path = "类型转换模式";
+			sourceTree = "<group>";
+		};
+		EF8A62B724330C6100AF0156 /* 表达式模式01 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A62B824330C6100AF0156 /* main.swift */,
+			);
+			path = "表达式模式01";
+			sourceTree = "<group>";
+		};
+		EF8A62C2243338E300AF0156 /* 表达式模式2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A62C3243338E300AF0156 /* main.swift */,
+			);
+			path = "表达式模式2";
+			sourceTree = "<group>";
+		};
+		EF8A62CD24333AB500AF0156 /* where */ = {
+			isa = PBXGroup;
+			children = (
+				EF8A62CE24333AB500AF0156 /* main.swift */,
+			);
+			path = where;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +319,91 @@
 			productReference = EF8A62952432338500AF0156 /* 枚举case模式 */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF8A629F2432F08100AF0156 /* 可选模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A62A42432F08100AF0156 /* Build configuration list for PBXNativeTarget "可选模式" */;
+			buildPhases = (
+				EF8A629C2432F08100AF0156 /* Sources */,
+				EF8A629D2432F08100AF0156 /* Frameworks */,
+				EF8A629E2432F08100AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "可选模式";
+			productName = "可选模式";
+			productReference = EF8A62A02432F08100AF0156 /* 可选模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A62AA2432F69B00AF0156 /* 类型转换模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A62AF2432F69B00AF0156 /* Build configuration list for PBXNativeTarget "类型转换模式" */;
+			buildPhases = (
+				EF8A62A72432F69B00AF0156 /* Sources */,
+				EF8A62A82432F69B00AF0156 /* Frameworks */,
+				EF8A62A92432F69B00AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类型转换模式";
+			productName = "类型转换模式";
+			productReference = EF8A62AB2432F69B00AF0156 /* 类型转换模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A62B524330C6100AF0156 /* 表达式模式01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A62BA24330C6100AF0156 /* Build configuration list for PBXNativeTarget "表达式模式01" */;
+			buildPhases = (
+				EF8A62B224330C6100AF0156 /* Sources */,
+				EF8A62B324330C6100AF0156 /* Frameworks */,
+				EF8A62B424330C6100AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表达式模式01";
+			productName = "表达式模式01";
+			productReference = EF8A62B624330C6100AF0156 /* 表达式模式01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A62C0243338E300AF0156 /* 表达式模式2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A62C5243338E300AF0156 /* Build configuration list for PBXNativeTarget "表达式模式2" */;
+			buildPhases = (
+				EF8A62BD243338E300AF0156 /* Sources */,
+				EF8A62BE243338E300AF0156 /* Frameworks */,
+				EF8A62BF243338E300AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表达式模式2";
+			productName = "表达式模式2";
+			productReference = EF8A62C1243338E300AF0156 /* 表达式模式2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EF8A62CB24333AB500AF0156 /* where */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8A62D024333AB500AF0156 /* Build configuration list for PBXNativeTarget "where" */;
+			buildPhases = (
+				EF8A62C824333AB500AF0156 /* Sources */,
+				EF8A62C924333AB500AF0156 /* Frameworks */,
+				EF8A62CA24333AB500AF0156 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = where;
+			productName = where;
+			productReference = EF8A62CC24333AB500AF0156 /* where */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,6 +421,21 @@
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					EF8A62942432338500AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A629F2432F08100AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A62AA2432F69B00AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A62B524330C6100AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A62C0243338E300AF0156 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EF8A62CB24333AB500AF0156 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -211,6 +456,11 @@
 				EF8A627B243211FE00AF0156 /* 字面量 */,
 				EF8A628924321ACB00AF0156 /* 模式 */,
 				EF8A62942432338500AF0156 /* 枚举case模式 */,
+				EF8A629F2432F08100AF0156 /* 可选模式 */,
+				EF8A62AA2432F69B00AF0156 /* 类型转换模式 */,
+				EF8A62B524330C6100AF0156 /* 表达式模式01 */,
+				EF8A62C0243338E300AF0156 /* 表达式模式2 */,
+				EF8A62CB24333AB500AF0156 /* where */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +487,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8A62982432338500AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A629C2432F08100AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A62A32432F08100AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62A72432F69B00AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A62AE2432F69B00AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62B224330C6100AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A62B924330C6100AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62BD243338E300AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A62C4243338E300AF0156 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A62C824333AB500AF0156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8A62CF24333AB500AF0156 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +700,96 @@
 			};
 			name = Release;
 		};
+		EF8A62A52432F08100AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A62A62432F08100AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A62B02432F69B00AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A62B12432F69B00AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A62BB24330C6100AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A62BC24330C6100AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A62C6243338E300AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A62C7243338E300AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EF8A62D124333AB500AF0156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EF8A62D224333AB500AF0156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +825,51 @@
 			buildConfigurations = (
 				EF8A629A2432338500AF0156 /* Debug */,
 				EF8A629B2432338500AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A62A42432F08100AF0156 /* Build configuration list for PBXNativeTarget "可选模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A62A52432F08100AF0156 /* Debug */,
+				EF8A62A62432F08100AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A62AF2432F69B00AF0156 /* Build configuration list for PBXNativeTarget "类型转换模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A62B02432F69B00AF0156 /* Debug */,
+				EF8A62B12432F69B00AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A62BA24330C6100AF0156 /* Build configuration list for PBXNativeTarget "表达式模式01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A62BB24330C6100AF0156 /* Debug */,
+				EF8A62BC24330C6100AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A62C5243338E300AF0156 /* Build configuration list for PBXNativeTarget "表达式模式2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A62C6243338E300AF0156 /* Debug */,
+				EF8A62C7243338E300AF0156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8A62D024333AB500AF0156 /* Build configuration list for PBXNativeTarget "where" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8A62D124333AB500AF0156 /* Debug */,
+				EF8A62D224333AB500AF0156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
