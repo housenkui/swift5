@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDE843C2434BE1D003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE843B2434BE1D003720CA /* main.swift */; };
+		EFDE84492434C0FC003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE84482434C0FC003720CA /* main.swift */; };
+		EFDE84542434C936003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE84532434C936003720CA /* main.swift */; };
+		EFDE845F2434CCF8003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE845E2434CCF8003720CA /* main.swift */; };
+		EFDE846A2434CF9C003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE84692434CF9C003720CA /* main.swift */; };
+		EFDE84752434D46F003720CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE84742434D46F003720CA /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFDE84362434BE1D003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFDE84442434C0FC003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFDE844F2434C936003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFDE845A2434CCF8003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFDE84652434CF9C003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EFDE84702434D46F003720CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFDE84382434BE1D003720CA /* 面向协议编程01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面向协议编程01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE843B2434BE1D003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDE84462434C0FC003720CA /* 优雅的前缀01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "优雅的前缀01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE84482434C0FC003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDE84512434C936003720CA /* 优雅的前缀2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "优雅的前缀2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE84532434C936003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDE845C2434CCF8003720CA /* 优雅的前缀3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "优雅的前缀3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE845E2434CCF8003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDE84672434CF9C003720CA /* 优雅的前缀4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "优雅的前缀4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE84692434CF9C003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EFDE84722434D46F003720CA /* 类型判断 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类型判断"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE84742434D46F003720CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDE84352434BE1D003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84432434C0FC003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE844E2434C936003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84592434CCF8003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84642434CF9C003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE846F2434D46F003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDE842F2434BE1D003720CA = {
+			isa = PBXGroup;
+			children = (
+				EFDE843A2434BE1D003720CA /* 面向协议编程01 */,
+				EFDE84472434C0FC003720CA /* 优雅的前缀01 */,
+				EFDE84522434C936003720CA /* 优雅的前缀2 */,
+				EFDE845D2434CCF8003720CA /* 优雅的前缀3 */,
+				EFDE84682434CF9C003720CA /* 优雅的前缀4 */,
+				EFDE84732434D46F003720CA /* 类型判断 */,
+				EFDE84392434BE1D003720CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDE84392434BE1D003720CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE84382434BE1D003720CA /* 面向协议编程01 */,
+				EFDE84462434C0FC003720CA /* 优雅的前缀01 */,
+				EFDE84512434C936003720CA /* 优雅的前缀2 */,
+				EFDE845C2434CCF8003720CA /* 优雅的前缀3 */,
+				EFDE84672434CF9C003720CA /* 优雅的前缀4 */,
+				EFDE84722434D46F003720CA /* 类型判断 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDE843A2434BE1D003720CA /* 面向协议编程01 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE843B2434BE1D003720CA /* main.swift */,
+			);
+			path = "面向协议编程01";
+			sourceTree = "<group>";
+		};
+		EFDE84472434C0FC003720CA /* 优雅的前缀01 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE84482434C0FC003720CA /* main.swift */,
+			);
+			path = "优雅的前缀01";
+			sourceTree = "<group>";
+		};
+		EFDE84522434C936003720CA /* 优雅的前缀2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE84532434C936003720CA /* main.swift */,
+			);
+			path = "优雅的前缀2";
+			sourceTree = "<group>";
+		};
+		EFDE845D2434CCF8003720CA /* 优雅的前缀3 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE845E2434CCF8003720CA /* main.swift */,
+			);
+			path = "优雅的前缀3";
+			sourceTree = "<group>";
+		};
+		EFDE84682434CF9C003720CA /* 优雅的前缀4 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE84692434CF9C003720CA /* main.swift */,
+			);
+			path = "优雅的前缀4";
+			sourceTree = "<group>";
+		};
+		EFDE84732434D46F003720CA /* 类型判断 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE84742434D46F003720CA /* main.swift */,
+			);
+			path = "类型判断";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDE84372434BE1D003720CA /* 面向协议编程01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE843F2434BE1D003720CA /* Build configuration list for PBXNativeTarget "面向协议编程01" */;
+			buildPhases = (
+				EFDE84342434BE1D003720CA /* Sources */,
+				EFDE84352434BE1D003720CA /* Frameworks */,
+				EFDE84362434BE1D003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面向协议编程01";
+			productName = "面向协议编程01";
+			productReference = EFDE84382434BE1D003720CA /* 面向协议编程01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFDE84452434C0FC003720CA /* 优雅的前缀01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE844A2434C0FC003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀01" */;
+			buildPhases = (
+				EFDE84422434C0FC003720CA /* Sources */,
+				EFDE84432434C0FC003720CA /* Frameworks */,
+				EFDE84442434C0FC003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "优雅的前缀01";
+			productName = "优雅的前缀01";
+			productReference = EFDE84462434C0FC003720CA /* 优雅的前缀01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFDE84502434C936003720CA /* 优雅的前缀2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE84552434C936003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀2" */;
+			buildPhases = (
+				EFDE844D2434C936003720CA /* Sources */,
+				EFDE844E2434C936003720CA /* Frameworks */,
+				EFDE844F2434C936003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "优雅的前缀2";
+			productName = "优雅的前缀2";
+			productReference = EFDE84512434C936003720CA /* 优雅的前缀2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFDE845B2434CCF8003720CA /* 优雅的前缀3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE84602434CCF8003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀3" */;
+			buildPhases = (
+				EFDE84582434CCF8003720CA /* Sources */,
+				EFDE84592434CCF8003720CA /* Frameworks */,
+				EFDE845A2434CCF8003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "优雅的前缀3";
+			productName = "优雅的前缀3";
+			productReference = EFDE845C2434CCF8003720CA /* 优雅的前缀3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFDE84662434CF9C003720CA /* 优雅的前缀4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE846B2434CF9C003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀4" */;
+			buildPhases = (
+				EFDE84632434CF9C003720CA /* Sources */,
+				EFDE84642434CF9C003720CA /* Frameworks */,
+				EFDE84652434CF9C003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "优雅的前缀4";
+			productName = "优雅的前缀4";
+			productReference = EFDE84672434CF9C003720CA /* 优雅的前缀4 */;
+			productType = "com.apple.product-type.tool";
+		};
+		EFDE84712434D46F003720CA /* 类型判断 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE84762434D46F003720CA /* Build configuration list for PBXNativeTarget "类型判断" */;
+			buildPhases = (
+				EFDE846E2434D46F003720CA /* Sources */,
+				EFDE846F2434D46F003720CA /* Frameworks */,
+				EFDE84702434D46F003720CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类型判断";
+			productName = "类型判断";
+			productReference = EFDE84722434D46F003720CA /* 类型判断 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDE84302434BE1D003720CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "侯森魁";
+				TargetAttributes = {
+					EFDE84372434BE1D003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE84452434C0FC003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE84502434C936003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE845B2434CCF8003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE84662434CF9C003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE84712434D46F003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EFDE84332434BE1D003720CA /* Build configuration list for PBXProject "面向协议编程01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDE842F2434BE1D003720CA;
+			productRefGroup = EFDE84392434BE1D003720CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDE84372434BE1D003720CA /* 面向协议编程01 */,
+				EFDE84452434C0FC003720CA /* 优雅的前缀01 */,
+				EFDE84502434C936003720CA /* 优雅的前缀2 */,
+				EFDE845B2434CCF8003720CA /* 优雅的前缀3 */,
+				EFDE84662434CF9C003720CA /* 优雅的前缀4 */,
+				EFDE84712434D46F003720CA /* 类型判断 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDE84342434BE1D003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE843C2434BE1D003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84422434C0FC003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE84492434C0FC003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE844D2434C936003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE84542434C936003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84582434CCF8003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE845F2434CCF8003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE84632434CF9C003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE846A2434CF9C003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE846E2434D46F003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE84752434D46F003720CA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFDE843D2434BE1D003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDE843E2434BE1D003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFDE84402434BE1D003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE84412434BE1D003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFDE844B2434C0FC003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE844C2434C0FC003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFDE84562434C936003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE84572434C936003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFDE84612434CCF8003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE84622434CCF8003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFDE846C2434CF9C003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE846D2434CF9C003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFDE84772434D46F003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFDE84782434D46F003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDE84332434BE1D003720CA /* Build configuration list for PBXProject "面向协议编程01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE843D2434BE1D003720CA /* Debug */,
+				EFDE843E2434BE1D003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE843F2434BE1D003720CA /* Build configuration list for PBXNativeTarget "面向协议编程01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE84402434BE1D003720CA /* Debug */,
+				EFDE84412434BE1D003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE844A2434C0FC003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE844B2434C0FC003720CA /* Debug */,
+				EFDE844C2434C0FC003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE84552434C936003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE84562434C936003720CA /* Debug */,
+				EFDE84572434C936003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE84602434CCF8003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE84612434CCF8003720CA /* Debug */,
+				EFDE84622434CCF8003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE846B2434CF9C003720CA /* Build configuration list for PBXNativeTarget "优雅的前缀4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE846C2434CF9C003720CA /* Debug */,
+				EFDE846D2434CF9C003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE84762434D46F003720CA /* Build configuration list for PBXNativeTarget "类型判断" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE84772434D46F003720CA /* Debug */,
+				EFDE84782434D46F003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDE84302434BE1D003720CA /* Project object */;
+}

@@ -39,6 +39,20 @@
 		EFDE8379243394A6003720CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE8377243394A6003720CA /* Main.storyboard */; };
 		EFDE837B243394A7003720CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE837A243394A7003720CA /* Assets.xcassets */; };
 		EFDE837E243394A7003720CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE837C243394A7003720CA /* LaunchScreen.storyboard */; };
+		EFDE838A24342364003720CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE838924342364003720CA /* AppDelegate.swift */; };
+		EFDE838C24342364003720CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE838B24342364003720CA /* SceneDelegate.swift */; };
+		EFDE838E24342364003720CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE838D24342364003720CA /* ViewController.swift */; };
+		EFDE839124342364003720CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE838F24342364003720CA /* Main.storyboard */; };
+		EFDE839324342366003720CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE839224342366003720CA /* Assets.xcassets */; };
+		EFDE839624342366003720CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE839424342366003720CA /* LaunchScreen.storyboard */; };
+		EFDE839C243427B6003720CA /* Asyncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE839B243427B6003720CA /* Asyncs.swift */; };
+		EFDE83A424343323003720CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE83A324343323003720CA /* AppDelegate.swift */; };
+		EFDE83A624343323003720CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE83A524343323003720CA /* SceneDelegate.swift */; };
+		EFDE83A824343323003720CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE83A724343323003720CA /* ViewController.swift */; };
+		EFDE83AB24343323003720CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE83A924343323003720CA /* Main.storyboard */; };
+		EFDE83AD24343324003720CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDE83AC24343324003720CA /* Assets.xcassets */; };
+		EFDE83B024343324003720CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDE83AE24343324003720CA /* LaunchScreen.storyboard */; };
+		EFDE83B624343337003720CA /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE83B524343337003720CA /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -185,6 +199,24 @@
 		EFDE837A243394A7003720CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDE837D243394A7003720CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDE837F243394A7003720CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDE838724342364003720CA /* 多线程异步01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程异步01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE838924342364003720CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDE838B24342364003720CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFDE838D24342364003720CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDE839024342364003720CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDE839224342366003720CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDE839524342366003720CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDE839724342366003720CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDE839B243427B6003720CA /* Asyncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asyncs.swift; sourceTree = "<group>"; };
+		EFDE83A124343323003720CA /* 多线程lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDE83A324343323003720CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFDE83A524343323003720CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFDE83A724343323003720CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDE83AA24343323003720CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDE83AC24343324003720CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDE83AF24343324003720CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDE83B124343324003720CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDE83B524343337003720CA /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +311,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFDE838424342364003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE839E24343323003720CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -298,6 +344,8 @@
 				EFDE835A24338D9C003720CA /* 关联对象 */,
 				EFDE836524339304003720CA /* 资源名关联 */,
 				EFDE8370243394A6003720CA /* 资源名管理1 */,
+				EFDE838824342364003720CA /* 多线程异步01 */,
+				EFDE83A224343323003720CA /* 多线程lock */,
 				EF8A62DD24333C3300AF0156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -318,6 +366,8 @@
 				EFDE835924338D9C003720CA /* 关联对象 */,
 				EFDE836424339304003720CA /* 资源名关联 */,
 				EFDE836F243394A6003720CA /* 资源名管理1.app */,
+				EFDE838724342364003720CA /* 多线程异步01.app */,
+				EFDE83A124343323003720CA /* 多线程lock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -448,6 +498,36 @@
 				EFDE837F243394A7003720CA /* Info.plist */,
 			);
 			path = "资源名管理1";
+			sourceTree = "<group>";
+		};
+		EFDE838824342364003720CA /* 多线程异步01 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE838924342364003720CA /* AppDelegate.swift */,
+				EFDE838B24342364003720CA /* SceneDelegate.swift */,
+				EFDE838D24342364003720CA /* ViewController.swift */,
+				EFDE838F24342364003720CA /* Main.storyboard */,
+				EFDE839224342366003720CA /* Assets.xcassets */,
+				EFDE839424342366003720CA /* LaunchScreen.storyboard */,
+				EFDE839724342366003720CA /* Info.plist */,
+				EFDE839B243427B6003720CA /* Asyncs.swift */,
+			);
+			path = "多线程异步01";
+			sourceTree = "<group>";
+		};
+		EFDE83A224343323003720CA /* 多线程lock */ = {
+			isa = PBXGroup;
+			children = (
+				EFDE83A324343323003720CA /* AppDelegate.swift */,
+				EFDE83A524343323003720CA /* SceneDelegate.swift */,
+				EFDE83A724343323003720CA /* ViewController.swift */,
+				EFDE83A924343323003720CA /* Main.storyboard */,
+				EFDE83AC24343324003720CA /* Assets.xcassets */,
+				EFDE83AE24343324003720CA /* LaunchScreen.storyboard */,
+				EFDE83B124343324003720CA /* Info.plist */,
+				EFDE83B524343337003720CA /* Cache.swift */,
+			);
+			path = "多线程lock";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -674,6 +754,40 @@
 			productReference = EFDE836F243394A6003720CA /* 资源名管理1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EFDE838624342364003720CA /* 多线程异步01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE839824342366003720CA /* Build configuration list for PBXNativeTarget "多线程异步01" */;
+			buildPhases = (
+				EFDE838324342364003720CA /* Sources */,
+				EFDE838424342364003720CA /* Frameworks */,
+				EFDE838524342364003720CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多线程异步01";
+			productName = "多线程异步01";
+			productReference = EFDE838724342364003720CA /* 多线程异步01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDE83A024343323003720CA /* 多线程lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDE83B224343324003720CA /* Build configuration list for PBXNativeTarget "多线程lock" */;
+			buildPhases = (
+				EFDE839D24343323003720CA /* Sources */,
+				EFDE839E24343323003720CA /* Frameworks */,
+				EFDE839F24343323003720CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多线程lock";
+			productName = "多线程lock";
+			productReference = EFDE83A124343323003720CA /* 多线程lock.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -724,6 +838,12 @@
 					EFDE836E243394A6003720CA = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					EFDE838624342364003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EFDE83A024343323003720CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 				};
 			};
 			buildConfigurationList = EF8A62D724333C3300AF0156 /* Build configuration list for PBXProject "从OC到Swift" */;
@@ -752,6 +872,8 @@
 				EFDE835824338D9C003720CA /* 关联对象 */,
 				EFDE836324339304003720CA /* 资源名关联 */,
 				EFDE836E243394A6003720CA /* 资源名管理1 */,
+				EFDE838624342364003720CA /* 多线程异步01 */,
+				EFDE83A024343323003720CA /* 多线程lock */,
 			);
 		};
 /* End PBXProject section */
@@ -784,6 +906,26 @@
 				EFDE837E243394A7003720CA /* LaunchScreen.storyboard in Resources */,
 				EFDE837B243394A7003720CA /* Assets.xcassets in Resources */,
 				EFDE8379243394A6003720CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE838524342364003720CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE839624342366003720CA /* LaunchScreen.storyboard in Resources */,
+				EFDE839324342366003720CA /* Assets.xcassets in Resources */,
+				EFDE839124342364003720CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE839F24343323003720CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE83B024343324003720CA /* LaunchScreen.storyboard in Resources */,
+				EFDE83AD24343324003720CA /* Assets.xcassets in Resources */,
+				EFDE83AB24343323003720CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,6 +1046,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFDE838324342364003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE839C243427B6003720CA /* Asyncs.swift in Sources */,
+				EFDE838E24342364003720CA /* ViewController.swift in Sources */,
+				EFDE838A24342364003720CA /* AppDelegate.swift in Sources */,
+				EFDE838C24342364003720CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE839D24343323003720CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDE83A824343323003720CA /* ViewController.swift in Sources */,
+				EFDE83A424343323003720CA /* AppDelegate.swift in Sources */,
+				EFDE83B624343337003720CA /* Cache.swift in Sources */,
+				EFDE83A624343323003720CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -951,6 +1115,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				EFDE837D243394A7003720CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDE838F24342364003720CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE839024342364003720CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDE839424342366003720CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE839524342366003720CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDE83A924343323003720CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE83AA24343323003720CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDE83AE24343324003720CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDE83AF24343324003720CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1383,6 +1579,84 @@
 			};
 			name = Release;
 		};
+		EFDE839924342366003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程异步01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senkui.test001.-----01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDE839A24342366003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程异步01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senkui.test001.-----01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDE83B324343324003720CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程lock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senkui.test001.---lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDE83B424343324003720CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程lock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.senkui.test001.---lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1508,6 +1782,24 @@
 			buildConfigurations = (
 				EFDE8381243394A7003720CA /* Debug */,
 				EFDE8382243394A7003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE839824342366003720CA /* Build configuration list for PBXNativeTarget "多线程异步01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE839924342366003720CA /* Debug */,
+				EFDE839A24342366003720CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDE83B224343324003720CA /* Build configuration list for PBXNativeTarget "多线程lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDE83B324343324003720CA /* Debug */,
+				EFDE83B424343324003720CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
