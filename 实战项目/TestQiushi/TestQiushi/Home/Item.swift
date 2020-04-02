@@ -5,7 +5,7 @@
 //  Created by MJ Lee on 2019/8/10.
 //  Copyright © 2019 MJ Lee. All rights reserved.
 //
-import KakaJSON
+
 struct Item: Convertible {
     let content: String = ""
     let commentsCount: Int = 0
@@ -16,7 +16,7 @@ struct Item: Convertible {
     let user: User! = nil
     let hotComment: Comment? = nil
     
-    func kk_modelKey(from property: Property) -> ConvertibleKey {
-        return property.name.kk.underlineCased()
-    }
+//    func kk_modelKey(from property: Property) -> ConvertibleKey {
+//        return property.name.kk.underlineCased()
+//    }
 }

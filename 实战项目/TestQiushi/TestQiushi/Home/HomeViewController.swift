@@ -6,10 +6,7 @@
 //  Copyright © 2020 侯森魁. All rights reserved.
 //
 
-import UIKit
-import Alamofire
-import SwiftyJSON
-import KakaJSON
+
 class HomeViewController: UIViewController {
     lazy var tableView = UITableView()
 

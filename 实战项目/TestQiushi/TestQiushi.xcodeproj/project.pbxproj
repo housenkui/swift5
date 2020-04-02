@@ -44,6 +44,7 @@
 		EF8B34AA2435E2AC003EF3CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EF8B34AB2435E2AC003EF3CE /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		EF8B34AC2435E2AC003EF3CE /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF8B34B52435F7E2003EF3CE /* TestQiushi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestQiushi-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				EF8B349B2435CCDF003EF3CE /* TabBarViewController.swift */,
 				EF8B34A62435D3D1003EF3CE /* TabBar.swift */,
 				EF8B34A82435D931003EF3CE /* API.swift */,
+				EF8B34B52435F7E2003EF3CE /* TestQiushi-Bridging-Header.h */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -189,6 +191,7 @@
 				TargetAttributes = {
 					EF8B34812435C8EA003EF3CE = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -438,6 +441,7 @@
 			baseConfigurationReference = 7D56C11D4AEF0FAB8F41D0CC /* Pods-TestQiushi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestQiushi/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,6 +450,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.senkui.test001.TestQiushi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestQiushi/Main/TestQiushi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +462,7 @@
 			baseConfigurationReference = EC7392B04C410AAADEE80FFE /* Pods-TestQiushi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestQiushi/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.senkui.test001.TestQiushi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestQiushi/Main/TestQiushi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
