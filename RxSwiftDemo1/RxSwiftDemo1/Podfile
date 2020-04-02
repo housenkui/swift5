@@ -1,6 +1,6 @@
 use_frameworks!
 
-target 'RxSwiftDemo' do
+target 'RxSwiftDemo1' do
   pod  'RxSwift', '~> 5'
   pod  'RxCocoa', '~> 5'
 end 
