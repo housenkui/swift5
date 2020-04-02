@@ -14,6 +14,7 @@
 		EF8B345524358A52003EF3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B345324358A52003EF3CE /* Main.storyboard */; };
 		EF8B345724358A53003EF3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8B345624358A53003EF3CE /* Assets.xcassets */; };
 		EF8B345A24358A53003EF3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B345824358A53003EF3CE /* LaunchScreen.storyboard */; };
+		EF8B34622435968D003EF3CE /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B34612435968D003EF3CE /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EF8B345624358A53003EF3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8B345924358A53003EF3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF8B345B24358A53003EF3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B34612435968D003EF3CE /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				D5DD8A6C8E2F58C9B0167B6E /* Pods-RxSwiftDemo1.debug.xcconfig */,
 				AC874558BA6F3BD6B91B89B8 /* Pods-RxSwiftDemo1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				EF8B344D24358A52003EF3CE /* AppDelegate.swift */,
 				EF8B344F24358A52003EF3CE /* SceneDelegate.swift */,
 				EF8B345124358A52003EF3CE /* ViewController.swift */,
+				EF8B34612435968D003EF3CE /* ViewController1.swift */,
 				EF8B345324358A52003EF3CE /* Main.storyboard */,
 				EF8B345624358A53003EF3CE /* Assets.xcassets */,
 				EF8B345824358A53003EF3CE /* LaunchScreen.storyboard */,
@@ -216,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8B34622435968D003EF3CE /* ViewController1.swift in Sources */,
 				EF8B345224358A52003EF3CE /* ViewController.swift in Sources */,
 				EF8B344E24358A52003EF3CE /* AppDelegate.swift in Sources */,
 				EF8B345024358A52003EF3CE /* SceneDelegate.swift in Sources */,
